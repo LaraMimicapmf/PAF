@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from projectile import Projectile
 
-p = Projectile(0, 0, 20, 45, 0.01)
+p = Projectile(0, 0, 20, 45, 0.5)
 
 x1, y1 = p.euler()
 x2, y2 = p.rk4()

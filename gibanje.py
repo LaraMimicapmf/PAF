@@ -2,7 +2,7 @@ import math
 from particle import Particle
 
 v0 = 10
-kut = math.radians(45)
+kut = math.radians(60)
 
 cestica = Particle(v0, kut)
 
@@ -18,3 +18,4 @@ odstupanje = abs(numericki_domet - analiticki_domet)
 print("Odstupanje =", odstupanje)
 
 cestica.plot_trajectory(dt)
+
